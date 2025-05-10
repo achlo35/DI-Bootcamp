@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 20px 20px;
+}
+nav{
+    background-color: black;
+    position: relative;
+    height: 50px;
+}
+
+.icon , .link{
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    float: right;
+    font-size: 13px;
+}
+
+.icon{
+    float: left;
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    color: pink;
+    text-align: center;
+}
+
+
+
+
