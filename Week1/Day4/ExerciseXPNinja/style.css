@@ -20,7 +20,7 @@ h1{
 .form{
     padding: 10px;
     width: 100%;
-    border: 1px solid lightgrey
+    border: 1px solid lightgrey;
     background-color: lightgrey;
 }
 
@@ -99,12 +99,12 @@ ul{
 }
 
 #register{
-    color:;
     font-size: 20px;
     text-align: center;
-    background-color: transparent
+    background-color: transparent;
     border: 1px solid white;
     border-radius: 50px;
     padding: 20px;
     font-weight: bold;
+    color: white;
 }
