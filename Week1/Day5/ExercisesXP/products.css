@@ -37,18 +37,22 @@ img{
 }
 
 .image2{
+    position: relative;
     background-image: url('https://github.com/devtlv/ShoppingProjectSetup_Week1Day2/blob/main/image2.png?raw=true');
 }
 
 .image3{
+    position: relative;
     background-image: url('https://github.com/devtlv/ShoppingProjectSetup_Week1Day2/blob/main/image3.png?raw=true');
 }
 
 .image4{
+    position: relative;
     background-image: url('https://github.com/devtlv/ShoppingProjectSetup_Week1Day2/blob/main/image4.png?raw=true');
 }
 
 .image1{
+    position: relative;
     background-image: url('https://github.com/devtlv/ShoppingProjectSetup_Week1Day2/blob/main/image1.png?raw=true');
 }
 
@@ -78,18 +82,27 @@ button{
 }
 
 .popup{
-    width: 100px;
-    height: 100px;
-    border-radius: 150px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
 }
 
 .green{
     background-color: green;
-    float: ;
+    position: absolute;
+    left: 5px;
 }
 
 .red{
     background-color: red;
+    right: 5px;
 }
 
    

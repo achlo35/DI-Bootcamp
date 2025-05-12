@@ -5,16 +5,27 @@ body{
 
 li{
     list-style-type: none;
+    margin: 0 20px;
 }
 
 ul{
     margin: 0;
-    padding: 20px 20px;
+    padding: 20px;
+    display: flex;
 }
 nav{
     background-color: black;
-    position: relative;
     height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .icon , .link{
@@ -23,12 +34,11 @@ nav{
 
 .link{
     text-decoration: none;
-    float: right;
+    display: flex;
     font-size: 13px;
 }
 
 .icon{
-    float: left;
     font-size: 20px;
 }
 
