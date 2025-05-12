@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    padding: 30px 50px;
+    width: 50%;
+    float: left;
+    height: 100vh;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.form{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid lightgrey
+    background-color: lightgrey;
+}
+
+span{
+    float: right;
+}
+
+.login{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid purple;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#social{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.social{
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: lightgrey;
+    color: purple;
+    font-size: 20px;
+}
+
+.container2{
+    width: 50%;
+    float: right;
+    height: 100vh;
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 50px;
+    color: white;
+}
+
+#icon{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#signup{
+    font-size: 30px;
+    text-align: center;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+#register{
+    color:;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
