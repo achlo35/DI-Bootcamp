@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>Landing Page</title>
+
+    <style>
+        body{
+            background-image: url('https://images.pexels.com/photos/5725589/pexels-photo-5725589.jpeg?auto=compress&cs=tinysrgb&w=400');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1{
+            text-align: center;
+            padding:20px 300px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 300px;
+        }
+
+        .flex{
+            text-align: center;
+        }
+
+        h2{
+            color: #4D55CC;
+        }
+
+        .flex > p{
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+
+        .gridcontainer{
+            display: grid;
+            padding: 30px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            column-gap: 20px;
+        }
+
+        .gridcontainer > div{
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #pinkbox{
+            background-color: pink;
+            grid-row: 2;
+        }
+
+        #bluebox{
+            background-color: blue;
+            grid-row: 3;
+            grid-column: 2;
+        }
+
+        #secondbox{
+            grid-row: 2;
+            grid-column: 2;
+        }
+
+        #thirdbox{
+            grid-row: 1;
+            grid-column: 3;
+        }
+
+        #tealbox{
+            background-color: teal;
+            grid-row: 2;
+            grid-column: 3;
+        }
+
+        .gridcontainer > div >p{
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopify powers ambitious entrepreneurs all over the world</h1>
+    <div class="flex-container">
+        <div class="flex">
+            <h2>500,000</h2>
+            <p>businesses powered by shopify</p>
+        </div>
+        <div class="flex">
+            <h2>1,000,000+</h2>
+            <p>active users</p>
+        </div>
+        <div class="flex">
+            <h2>$46B+</h2>
+            <p>sold on shopify</p>
+        </div>
+    </div>
+    <div class="gridcontainer">
+        <div>I am seriously happy about running our store on Shopify. Powerful featires and easy to set up, running an online store shouldn't be this much fun!</div>
+        <div id="pinkbox"><p>Tina Roth Eisenberg</p><p>Designer, Founder of Tattly</p></div>
+        <div id="secondbox">Shopify has helped me grow my business amazingly. It's been a pleasure because everything has been easier than i ever imagined.</div>
+        <div id="bluebox"><p>Corrine Anestopoulos</p><p>Founder, BIKO Jewelry</p></div>
+        <div id="thirdbox">The best thing about Shopify is that it's made me not have to worry about anything that has to do with ecommerce.</div>
+        <div id="tealbox"><p>Chris Tsang</p><p>Founder, Mindzai Toys</p></div>
+    </div>
+</body>
+</html>
