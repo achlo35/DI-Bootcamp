@@ -1,0 +1,26 @@
+.container1{
+    display: grid;
+    grid-template-rows: repeat(16, 20px);
+    grid-template-columns: repeat(16, 20px);
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.lightorange{
+    background-color: #FFDF88;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.container1 div{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
